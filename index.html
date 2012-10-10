@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="images/bKnight.png"/>
+        <meta charset="utf-8">
+            <title>JavaScript Chess</title>
+            <link rel="stylesheet" type="text/css" href="css/style.css">
+            <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.8.22.custom.css">
+    </head>
+    <body>
+        <div id="board">
+        </div>
+        
+        <div id="info">
+            Share this link with your opponent: <a href="#" class="opponent-link"></a>
+            
+            <br/>
+            <br/>
+            <br/>
+            
+            <div class="moveCount"></div>
+                  
+            <div class="error"></div>
+        </div>
+    </body>
+
+    <script src="scripts/cookie-wrapper.js"></script>    
+    <script src="scripts/jquery-1.7.2.min.js"></script>
+    <script src="scripts/jquery-ui-1.8.22.custom.min.js"></script>
+    <script src="scripts/util.js"></script>
+    <script src="scripts/chess.js"></script>
+    <script type="text/javascript">
+        $('<div>HELLO!</div>').dialog();
+    </script>
+</html>
